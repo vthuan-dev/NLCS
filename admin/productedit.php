@@ -81,7 +81,7 @@
                     <option value="1" <?php echo isset($result['vat_included']) && $result['vat_included'] == '1' ? 'selected' : '' ?>>Đã bao gồm VAT</option>
                     <option value="0" <?php echo isset($result['vat_included']) && $result['vat_included'] == '0' ? 'selected' : '' ?>>Chưa bao gồm VAT</option>
                 </select>
-                <input type="text" name="variant_name" placeholder="Nhập Model"
+                <input type="text" name="variant_name" placeholder="Nhập Phiên bản"
                     value="<?php echo $result['variant_name']?>"
                 >
                 <input type="text" name="price" placeholder="Nhập giá"

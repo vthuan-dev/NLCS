@@ -5,7 +5,7 @@ include 'config.php';
 //Chứa các lệnh truy vấn cơ sở dữ liệu
 Class database{
     public $host = "localhost";
-    public $username = "root";
+    public $username = "nlcs";
     public $password = "100103";
     public $dbname = "tmdt";
     //Biến chứ đối tượng kết nối cơ sở dữ liệu

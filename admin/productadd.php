@@ -54,7 +54,7 @@
                 <option value="1">Đã bao gồm VAT</option>
                 <option value="0">Chưa bao gồm VAT</option>
             </select>           
-             <input type="text" name="variant_name" placeholder="Nhập Model">
+             <input type="text" name="variant_name" placeholder="Nhập Phiên Bản">
             <input type="text" name="price" placeholder="Nhập giá">
             <button type="submit">Thêm</button>
         </form>

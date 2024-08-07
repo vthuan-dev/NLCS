@@ -173,7 +173,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             
             
             echo '<td>' . number_format($product['price'] * $product['quantity']) . ' đ</td>';
-            echo '<td><button class="remove" value="' . $product_id . '">Remove</button></td>';
+            echo '<td><button class="remove" value="' . $product_id . '">Xóa</button></td>';
+            echo '<td colspan="4" align="right"><button class="order" onclick="order()">Đặt hàng</button></td>';
+            
+
             echo '</tr>';
         }
     

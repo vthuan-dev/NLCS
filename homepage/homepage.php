@@ -39,7 +39,7 @@ $result = $link->query($sql);
            
             <div class="logo">
                 <a href="homepage.php">
-                    <img src="..\img\logo.jpg" alt="T-Store">
+                    <img src="..\img\image.png" alt="T-Store">
                 </a>
             </div>
             <div class="tragop">
@@ -103,14 +103,17 @@ $result = $link->query($sql);
          
         <div class="dangnhap-dangky">
             <?php
+            
             if (isset($_SESSION["phonenumber"])) {
                 echo "Xin chào " . $_SESSION["fullname"];
                 echo "<a href='../admin/logout.php'><i class='fas fa-sign-out-alt'></i> Đăng xuất</a>";
             } else {
                 echo "<a href='..\dangnhap-dangky\dangky.php'><i class='fas fa-user'></i> Đăng ký</a>";
             }
+          
             ?>
         </div>
+    
     
      
 </div>

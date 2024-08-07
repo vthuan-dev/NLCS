@@ -87,7 +87,7 @@
                     <th>Nhà sản xuất</th>
                     <th>Bảo hành</th>
                     <th>VAT</th>
-                    <th>Tên biến thể</th>
+                    <th>Phiên bản</th>
                     <th>Giá</th>
                     <th>Lựa chọn</th>
                 </tr>

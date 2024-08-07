@@ -32,7 +32,7 @@
     </style>
     
 <div class="admin-content-right">
-    <h2>Tài khoản người dùng</h2>
+    <h2>Danh sách tài khoản người dùng</h2>
     <table>
         <thead>
             <tr>
